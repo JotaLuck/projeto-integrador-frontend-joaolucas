@@ -5,7 +5,13 @@
 
 </head>
 <body>
-    <h1>Portal de controle de lavanderia</h1>
+    <header>
+        <h1>Portal de controle de lavanderia</h1>
+    </header>
+    <main>
+        <section>
+            <h2>Visão geral</h2>
+            
     <p>Este portal tem como objetivo organizar e apresentar informações sobre a operação de uma lavanderia.</p>
     <ul>
         <li>Controle de produção</li>
@@ -26,9 +32,34 @@
             <td>1.200</td>
         </tr>
     </table>
+         </section>
+         <section>
+            <h2>Informações adicionais</h2>
+         
     <a href="https://pt.wikipedia.org/wiki/lavanderia" target="_blank" rel="noopener noreferrer">Saiba mais sobre lavanderias</a>
     <img src="assets/images/lavanderia-industrial.jpg" alt="Trabalhadores organizando toalhas em uma lavanderia industrial">
-
+    </section>
+    <section> 
+        <h2>Solicitação de serviço</h2>
+        <form> 
+            <fieldset> 
+                <legend>Dados da solicitação</legend>
+                <label for="nome">Nome do cliente:</label>
+                <input type="text" id="nome" name="nome" required>
+                <label for="email">E-mail:</label>
+                <input type="email" id="email" name="email" required>  
+                <label for="data">Data do serviço:</label>
+                <input type="date" id="data" name="data">
+                <label for="peso">Peso estimado (kg):</label>
+                <input type="number" id="peso" name="peso" min="1" max="5000">
+                <button type="submit">Enviar solicitação</button>
+            </fieldset>
+        </form>
+    </section>
+</main>
+<footer>
+    <p>Projeto integrador - Desenvolvimento Front-end para Web</p>
+</footer>
 </body>
 
 </html>
