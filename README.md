@@ -1,4 +1,4 @@
-# projeto-integrado-frontend-joaolucas# Portal de Controle de Lavanderia
+# Portal de Controle de Lavanderia
 
 Projeto Integrador desenvolvido para representar um portal de controle de uma lavanderia.
 A proposta é organizar e apresentar informações relacionadas à operação da empresa.
